@@ -1,0 +1,11 @@
+.text-section {
+  margin-top: -2.6rem;
+}
+
+.featured-in-section {
+  background-color: #1D1E21 !important;
+}
+
+.featured-in-section * {
+  color: #ffffff;
+}

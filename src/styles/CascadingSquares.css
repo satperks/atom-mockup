@@ -1,0 +1,78 @@
+.cascading-squares-container {
+  margin-top: 67.5px;
+  position: relative;
+  width: 100%;
+  height: 225px;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.cascading-squares-wrapper {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 10px;
+}
+
+.cascading-squares {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.cascading-squares-margin {
+  margin-bottom: 0.45rem;
+  margin-top: -1.8rem;
+}
+
+@media (min-width: 640px) {
+  .cascading-squares-margin {
+    margin-bottom: 0.45rem;
+    margin-top: -2.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .cascading-squares-margin {
+    margin-bottom: 0.45rem;
+    margin-top: -2.7rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cascading-squares-margin {
+    margin-bottom: 0.45rem;
+    margin-top: -3.15rem;
+  }
+}
+
+.cascading-square {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  box-shadow: 2.7px 2.7px 9px rgba(0,0,0,0.2);
+}
+
+.square-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1.8px solid #333;
+  border-radius: 9px;
+}
+
+.cascading-square:hover {
+  transform: translateX(-13.5px) translateY(-13.5px) !important;
+  z-index: 10;
+}
+
+.cascading-squares-custom-position {
+  position: relative;
+  top: var(--squares-top-offset, -1.8rem);
+}
