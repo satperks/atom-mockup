@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@onlook/babel-plugin-react": "^2.1.1",
     "@shadcn/ui": "^0.0.4",
     "customize-cra": "^1.0.0",
