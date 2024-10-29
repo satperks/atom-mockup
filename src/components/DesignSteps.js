@@ -9,9 +9,9 @@ const DesignLaunchSteps = ({ className = "" }) => {
         Launch Your Design Contest Fast
       </div>
       <section className="self-stretch flex flex-row items-start justify-start py-0 px-[46px] box-border max-w-full mq750:pl-[23px] mq750:pr-[23px] mq750:box-border">
-        <div className="h-[279px] flex-1 relative max-w-full">
+        <div className="h-[279px] flex-1 relative max-w-full aspect-[3/1]">
           <img
-            className="absolute top-[0px] left-[0px] w-full h-full overflow-hidden"
+            className="absolute top-[50%] left-[0px] w-full h-[90%] overflow-hidden object-contain transform -translate-y-1/2"
             alt=""
             src="./DesignContestFast.svg"
           />
