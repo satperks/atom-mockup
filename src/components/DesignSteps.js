@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import mainsectionfinal1 from "../assets/images/DesignContestFast.svg";
 
 const DesignLaunchSteps = ({ className = "" }) => {
   return (
@@ -14,7 +13,7 @@ const DesignLaunchSteps = ({ className = "" }) => {
           <img
             className="absolute top-[0px] left-[0px] w-full h-full overflow-hidden"
             alt=""
-            src={mainsectionfinal1}
+            src="./DesignContestFast.svg"
           />
           <img
             className="absolute top-[39px] left-[214px] w-[920px] h-0.5 overflow-hidden z-[1]"
