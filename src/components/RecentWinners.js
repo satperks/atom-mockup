@@ -16,7 +16,7 @@ export default function RecentWinners() {
       website: "Meetoro.com",
       dateCreated: "5th, Oct 2024",
       likes: 13,
-      description: "Name for a Tech Startup",
+      description: "Logo for a Tech Startup",
       prize: "$200",
       winner: "@BCOLAK",
       image: profile2
@@ -36,7 +36,7 @@ export default function RecentWinners() {
       website: "NovaTech.com",
       dateCreated: "3rd, Dec 2024",
       likes: 17,
-      description: "Slogan for an AI Company",
+      description: "Logo for an AI Company",
       prize: "$250",
       winner: "@AICreative",
       image: profile1

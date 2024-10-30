@@ -25,7 +25,7 @@ const cardDetails = [
   },
   {
     title: "Modern Logo for Tech Startup",
-    type: "Logo Design",
+    type: "Branding & Identity / Logo",
     postedDate: "Posted 2 days ago",
     description: "Looking for a minimalist, modern logo that captures our innovative spirit in the AI space.",
     prize: "$350",
@@ -35,7 +35,7 @@ const cardDetails = [
   },
   {
     title: "Eco-Friendly Brand Identity",
-    type: "Branding & Identity",
+    type: "Branding & Identity / Logo",
     postedDate: "Posted 4 days ago",
     description: "Sustainable product company seeking nature-inspired brand identity. Green focus essential.",
     prize: "$500",
@@ -45,7 +45,7 @@ const cardDetails = [
   },
   {
     title: "Gaming Channel Logo",
-    type: "Logo / Gaming",
+    type: "Branding & Identity / Logo",
     postedDate: "Posted 1 day ago",
     description: "Twitch streamer needs eye-catching logo. Must be bold and dynamic.",
     prize: "$275",
@@ -55,7 +55,7 @@ const cardDetails = [
   },
   {
     title: "Luxury Spa Rebrand",
-    type: "Branding & Identity",
+    type: "Branding & Identity / Logo",
     postedDate: "Posted 3 days ago",
     description: "High-end spa requires sophisticated new brand identity. Elegant and serene aesthetic.",
     prize: "$450",
@@ -65,7 +65,7 @@ const cardDetails = [
   },
   {
     title: "Food Truck Logo Design",
-    type: "Logo / Food",
+    type: "Branding & Identity / Logo",
     postedDate: "Posted 5 days ago",
     description: "Mexican fusion food truck needs playful, memorable logo. Must pop on social media.",
     prize: "$300",
